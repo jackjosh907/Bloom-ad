@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+$mustard: #ecb605;
+
+.container-fluid {
+  width: 480px;
+  margin: auto;
+}
+.title{
+  background: rgb(13, 13, 88);
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  align-items: center;
+  h2 {
+    margin: 0;
+    // padding: 10px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    color: #E8DE2A;
+    font-size: 25px;
+    font-weight: 800;
+
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    transform: translateY(8.4px);
+    li {
+      // padding: 10px;
+
+      a {
+        text-decoration: none;
+        font-size: 15px;
+        margin: 10px;
+        color: rgb(248, 139, 139);
+
+        font-weight: 800;
+        letter-spacing: 1px;
+        &:hover {
+          color: rgb(173, 92, 92);
+
+        }
+      }
+    }
+  }
+}
+
+.one {
+  background: #ecb605;
+  margin: 4px 0;
+
+  h3 {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+  }
+}
+
+.two {
+  background: url(/img/summer.jpeg) no-repeat center/ cover;
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+  flex-direction: column;
+  color: #ecb605;
+  margin: 2px;
+
+  button {
+    margin-top: 280px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background:rgba(160, 243, 243, 0.8);
+    font-size: 14px;
+  }
+ 
+  h1 {
+    font-family: 'lobster';
+    font-size: 63px;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span {
+    font-weight: 600;
+  }
+  
+}
+
+// row ad
+
+.ad {
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background:rgba(160, 243, 243, 0.8);
+    font-size: 14px;
+  }
+  .con-1 {
+    
+    padding: 0;
+        height: 475px;
+    background: url(/img/sundress.jpeg) no-repeat center -69px/contain;
+    
+  
+    z-index: -10;
+    &:hover{
+      filter: blur(2.3px);
+    }
+    }
+    h1 {
+      color: $mustard;
+      padding: 2px 10px;
+      text-transform: uppercase;
+      margin: 0;
+      font-weight: 750;
+      font-size: 40px;
+    }
+    small {
+      font-size: 15px;
+      color: white;
+      font-weight: 700;
+      padding-left: 5px;
+    }
+  
+
+  .con-2 {
+    padding: 0;
+    height: 406px;
+    background: url(/img/necklace.jpg) no-repeat center /contain;
+
+    
+    }
+    h1 {
+      color: $mustard;
+      padding: 2px 10px;
+      text-transform: uppercase;
+      margin: 0;
+      font-weight: 750;
+      font-size: 40px;
+    }
+    small {
+      font-size: 15px;
+      color: white;
+      font-weight: 700;
+      padding-left: 5px;
+    }
+    
+  }
+
+.girl {
+  background: url(/img/lg.png) no-repeat center/ contain;
+  height:300px;
+  width: 400px;
+}
+
+.card {
+  .col-12 {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 4px 0;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+
+    img {
+      height: 90px;
+      width: 100px;
+    }
+
+    span {
+      button {
+        margin-top: 10px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        background:rgba(59, 78, 78, 0.8);
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.rewards {
+  background: $mustard;
+height: 200px;
+justify-content: center;
+align-items: center;
+h1 {
+  margin: 0;
+  padding:0;
+  height: 0px;
+  text-align: center;
+  text-transform: uppercase;
+
+  span {
+    font-weight: 100;
+  }
+  
+}
+
+small {
+  text-align: center;
+  margin-top: 4px;
+}
+
+button {
+  width: 150px;
+  padding: 10px 0;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background:rgba(59, 78, 78, 0.8);
+  font-size: 14px;
+}
+}
+
+.socials {
+  .col-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+
+  i {
+    margin: 0 20px;
+    font-size: 25px;
+  }
+}
+}

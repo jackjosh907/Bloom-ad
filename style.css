@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.container-fluid {
+  width: 480px;
+  margin: auto;
+}
+
+.title {
+  background: #0d0d58;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.title h2 {
+  margin: 0;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  color: #E8DE2A;
+  font-size: 25px;
+  font-weight: 800;
+}
+.title ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateY(8.4px);
+          transform: translateY(8.4px);
+}
+.title ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  margin: 10px;
+  color: #f88b8b;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.title ul li a:hover {
+  color: #ad5c5c;
+}
+
+.one {
+  background: #ecb605;
+  margin: 4px 0;
+}
+.one h3 {
+  text-align: center;
+  padding: 20px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+}
+
+.two {
+  background: url(/img/summer.jpeg) no-repeat center/cover;
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ecb605;
+  margin: 2px;
+}
+.two button {
+  margin-top: 280px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  background: rgba(160, 243, 243, 0.8);
+  font-size: 14px;
+}
+.two h1 {
+  font-family: "lobster";
+  font-size: 63px;
+  margin: 0;
+  padding-top: 5px;
+}
+.two span {
+  font-weight: 600;
+}
+
+.ad button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  background: rgba(160, 243, 243, 0.8);
+  font-size: 14px;
+}
+.ad .con-1 {
+  padding: 0;
+  height: 475px;
+  background: url(/img/sundress.jpeg) no-repeat center -69px/contain;
+  z-index: -10;
+}
+.ad .con-1:hover {
+  -webkit-filter: blur(2.3px);
+          filter: blur(2.3px);
+}
+.ad h1 {
+  color: #ecb605;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 750;
+  font-size: 40px;
+}
+.ad small {
+  font-size: 15px;
+  color: white;
+  font-weight: 700;
+  padding-left: 5px;
+}
+.ad .con-2 {
+  padding: 0;
+  height: 406px;
+  background: url(/img/necklace.jpg) no-repeat center/contain;
+}
+.ad h1 {
+  color: #ecb605;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 750;
+  font-size: 40px;
+}
+.ad small {
+  font-size: 15px;
+  color: white;
+  font-weight: 700;
+  padding-left: 5px;
+}
+
+.girl {
+  background: url(/img/lg.png) no-repeat center/contain;
+  height: 300px;
+  width: 400px;
+}
+
+.card .col-12 {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+  padding: 4px 0;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+}
+.card .col-12 img {
+  height: 90px;
+  width: 100px;
+}
+.card .col-12 span button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background: rgba(59, 78, 78, 0.8);
+  font-size: 14px;
+}
+
+.rewards {
+  background: #ecb605;
+  height: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.rewards h1 {
+  margin: 0;
+  padding: 0;
+  height: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.rewards h1 span {
+  font-weight: 100;
+}
+.rewards small {
+  text-align: center;
+  margin-top: 4px;
+}
+.rewards button {
+  width: 150px;
+  padding: 10px 0;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background: rgba(59, 78, 78, 0.8);
+  font-size: 14px;
+}
+
+.socials .col-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+.socials .col-12 i {
+  margin: 0 20px;
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */
